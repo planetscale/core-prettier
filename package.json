@@ -4,5 +4,8 @@
   "description": "Planetscale Core Design System prettier config",
   "main": "prettier.js",
   "repository": "git@github.com:planetscale/core-prettier.git",
-  "license": "apache-2.0"
+  "license": "apache-2.0",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
