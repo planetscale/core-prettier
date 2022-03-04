@@ -1,12 +1,12 @@
 {
   "name": "@planetscale/core-prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Planetscale Core Design System prettier config",
   "main": "prettier.js",
   "repository": "git@github.com:planetscale/core-prettier.git",
   "license": "apache-2.0",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "echo \"No tests.\""
