@@ -5,9 +5,6 @@
   "main": "prettier.js",
   "repository": "git@github.com:planetscale/core-prettier.git",
   "license": "apache-2.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "test": "echo \"No tests.\""
   }
