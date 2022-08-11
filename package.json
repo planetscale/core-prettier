@@ -6,6 +6,7 @@
   "repository": "git@github.com:planetscale/core-prettier.git",
   "license": "apache-2.0",
   "scripts": {
-    "test": "echo \"No tests.\""
+    "test": "echo \"No tests.\"",
+    "postpublish": "npm publish --ignore-scripts --@planetscale:registry='https://npm.pkg.github.com'"
   }
 }
