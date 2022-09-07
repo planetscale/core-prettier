@@ -1,6 +1,6 @@
 # @planetscale/core-prettier
 
-PlanetScale's shared [Prettier](https://prettier.io) configuration.
+PlanetScale's shared [Prettier](https://prettier.io) configuration including tailwind-prettier.
 
 ## Usage
 
@@ -10,13 +10,15 @@ PlanetScale's shared [Prettier](https://prettier.io) configuration.
 $ npm install --save-dev prettier prettier-plugin-tailwindcss @planetscale/core-prettier
 ```
 
-**Edit `.prettierrc.js`**:
+**Edit `.package.json`**:
 
 ```javascript
-module.exports = {
-  ...require('@planetscale/core-prettier')
-  // ...
-}
+// ...
+
+"prettier": "@planetscale/core-prettier",
+
+// ...
+
 ```
 
 [Read more on sharing configurations.](https://prettier.io/docs/en/configuration.html#sharing-configurations)
